@@ -3,7 +3,7 @@ require 'spec_helper'
 describe UsersController do
 
   before do
-    @user = FactoryGirl.create(:user)
+    @user = Fabricate(:user)
   end
 
   describe "Get 'show' for non-logged in user" do
